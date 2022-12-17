@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe9f4;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffe9f4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C689C6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #d47bd4;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8A0BF;
+    height: 5rem;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #7b0033;
+    transition: all 0.3s;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo:hover {
+    color: #550224;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #E8A0BF;
+    height: 5rem;
+    padding: 0 1rem;
+}
+
+.navbar .navlist {
+    position: relative;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.navbar .navlist .navlink {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.navbar .navlist .navlink,
+.navbar .navlist i {
+    font-size: 1.3rem;
+    color: #7b0033;
+    transition: all 0.3s;
+}
+.navbar .navlist .navlink,
+.navbar .navlist i:hover {
+    color: #6d032f;
+}
+
+
+
+
+
+
+.navmenu .navlist {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navmenu .navlist .navlink {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #7b0033;
+}
+
+.navmenu .navlist .navlink:hover {
+    color: #6d032f;
+}
+
+
+
+
+/* home section */
